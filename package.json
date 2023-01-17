@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next -p 3002",
-    "build": "sass-build && next build",
+    "build": "npm run sass-build && next build",
     "start": "next start",
     "sass": "sass --watch sass/main.scss:public/css/style.css",
     "sass-build": "sass sass/main.scss:public/css/style.css"
